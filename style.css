@@ -87,22 +87,37 @@ img {
     width: 100%;
     margin-top: 1em;
   }
+  img {
+    height: 100px;
+  }
 
  /* blocco lezioni */
   #lezioni .row>.left,
   #lezioni .row>.right, 
   #lezioni .row>h1 {
     width: 100%;
-    padding: 0.5em 0;
+    padding: 0.5em 0.5em;
   }
 
   /* blocco steps */
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right {
-    float: left;
     width: 100%;
-    padding: 0.5em 0;
+    padding: 0.5em 0.5em;
+  }
+
+  /* blocco why */
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    width: 100%;
+    margin-top: 0;
+    padding: 0.5em 0.5em;
+    background-color: lightyellow;
+  }
+  #why .row>h1 {
+    background-color: lightyellow;
   }
 
 }
